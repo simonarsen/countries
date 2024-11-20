@@ -1,0 +1,81 @@
+.country {
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.country:hover {
+    background-color: silver;
+    transition: 0.3s;
+}
+
+
+.country:active {
+    background-color: gray;
+    transition: 0s;
+}
+
+.countryWithHalfWidth {
+    width: 49%;
+    border-radius: 15px;
+    background-color: #F7F7F7;
+}
+
+.countryWithFullWidth {
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.coutryInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+}
+
+.countryFlag {
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.countryFlagWithHalfWidth {
+    width: 30%;
+}
+
+.countryFlagWithFullWidth {
+    width: 13%;
+}
+
+.countrySvg {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+} 
+
+.countryTitle {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.countrySubtitle {
+    font-size: 12px;
+    color: gray;
+}
+
+.coutryIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}

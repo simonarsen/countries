@@ -1,0 +1,39 @@
+.helpBlockWrapper {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.helpBlock {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 10px;
+    gap: 7px;
+    width: 100%;
+    height: 400px;
+}
+
+.helpBlockItem {
+    width: 32%;
+    height: 100%;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+}
+
+.helpBlockItemTitle {
+    font-size: 20px;
+    padding-block: 20px;
+    text-align: center;
+}
+
+.helpBlockItemContent {
+    width: 80%;
+    height: 76.5%;
+    background-color: silver;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

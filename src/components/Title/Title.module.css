@@ -1,0 +1,11 @@
+.titleBlock {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+}
+
+.title {
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
